@@ -1,0 +1,38 @@
+syntax on
+set number
+set norelativenumber
+set wrap
+set showcmd
+set cursorline
+set wildmenu
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+exec "nohlsearch"
+
+map s <nop>
+map S :w<CR>
+map Q :q<CR>
+map R :source $MYVIMRC<CR>
+
+map U 10j
+map I 10k
+
+noremap = nzz
+noremap - Nzz
+
+call plug#begin()
+
+Plug 'vim-airline/vim-airline'
+Plug 'connorholyday/vim-snazzy'
+
+" Initialize plugin system
+call plug#end()
+
+colorscheme snazzy
+let g:SnazzyTransparent = 1
+
+
+
