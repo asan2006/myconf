@@ -17,9 +17,6 @@ map S :w<CR>
 map Q :q<CR>
 map R :source $MYVIMRC<CR>
 
-map U 10j
-map I 10k
-
 noremap = nzz
 noremap - Nzz
 
