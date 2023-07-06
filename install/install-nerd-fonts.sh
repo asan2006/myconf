@@ -11,5 +11,11 @@ echo ${version}
 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/${version}/JetBrainsMono.zip
 unzip JetBrainsMono.zip -d ~/.fonts
-fc-cache -vf #refresh the cache
 rm JetBrainsMono.zip
+
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/${version}/DroidSansMono.zip
+unzip DroidSansMono.zip -d ~/.fonts
+rm DroidSansMono.zip
+
+fc-cache -vf #refresh the cache
+
