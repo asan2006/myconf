@@ -6,4 +6,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 CUR_PATH=$(dirname $(readlink -f $0))
 ZSH_PATH=${CUR_PATH}/../zsh
-cp ${ZSH_PATH}/.zshrc $HOME/.zshrc
+cp ${ZSH_PATH}/zshrc $HOME/.zshrc
